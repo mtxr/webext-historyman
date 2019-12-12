@@ -1,0 +1,34 @@
+{
+  "name": "HistoryMan",
+  "author": "Matheus Teixeira",
+  "version": "1.0.0",
+  "description": "",
+  "icons": {
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval' http://localhost:8097 blob: filesystem:; object-src 'self'",
+  "permissions": [
+    "contextMenus",
+    "cookies",
+    "history",
+    "browsingData",
+    "storage",
+    "*://*/* "
+  ],
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "HistoryMan",
+    "default_icon": "assets/icon-48.png"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  }
+}

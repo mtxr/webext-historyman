@@ -1,0 +1,90 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "es6",
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "allowJs": true,
+    // "checkJs": true,
+    "jsx": "react",
+    // "declaration": true,
+    // "declarationMap": true,
+    // "sourceMap": true,
+    // "outFile": "./",
+    // "outDir": "./",
+    // "rootDir": "./",
+    // "composite": true,
+    "removeComments": true,
+    "noEmit": true,
+    "importHelpers": true,
+    "downlevelIteration": true,
+    // "isolatedModules": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@bg/*": [
+        "src/ts/background/*"
+      ],
+      "@components/*": [
+        "src/ts/components/*"
+      ],
+      "@containers/*": [
+        "src/ts/containers/*"
+      ],
+      "@options/*": [
+        "src/ts/options/*"
+      ],
+      "@popup/*": [
+        "src/ts/popup/*"
+      ],
+      "@svg/*": [
+        "src/svg/*"
+      ],
+    },
+    // "rootDirs": [],
+    // "typeRoots": [],
+    // "types": [],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // "preserveSymlinks": true,
+    // "sourceRoot": "",
+    // "mapRoot": "",
+    // "inlineSourceMap": true,
+    // "inlineSources": true,
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
+    "plugins": [
+      {
+        "name": "typescript-tslint-plugin",
+        "alwaysShowRuleFailuresAsWarnings": false,
+        "ignoreDefinitionFiles": true,
+        "configFile": "./tslint.json",
+        "suppressWhileTypeErrorsPresent": false
+      }
+    ]
+  },
+  "include": [
+    "./src",
+    "./test"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

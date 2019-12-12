@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "*.js": "javascript",
+      "*.jsx": "javascriptreact",
+      "*.ts": "typescript",
+      "*.tsx": "typescriptreact"
+    },
+    "editor.useTabStops": false,
+    "npm.packageManager": "yarn",
+    "eslint.packageManager": "yarn",
+    "tslint.packageManager": "yarn",
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.tslint": true
+    },
+    "editor.formatOnSave": true
+  }
+}

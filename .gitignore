@@ -301,11 +301,7 @@ typings/
 .dynamodb/
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
@@ -673,3 +669,5 @@ ASALocalRun/
 .localhistory/
 
 # End of https://www.gitignore.io/api/node,macos,linux,eclipse,windows,intellij,visualstudio,microsoftoffice,visualstudiocode
+
+*.snap
